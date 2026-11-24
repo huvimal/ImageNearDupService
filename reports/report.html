@@ -1,0 +1,179 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ImageNearDupService</title><style>body{font:16px system-ui;background:#0c1524;color:#ecf4ff;max-width:1100px;margin:40px auto;padding:24px}h1{font-size:40px}p{line-height:1.6;color:#bfd0df}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#14283b;border-radius:16px;padding:24px}strong{color:#58e0b8}</style><h1>ImageNearDupService</h1><p><strong>Measured local experiment</strong> · 2026-11-20T04:29:03Z</p><p>Local perceptual-hash retrieval core over authored geometric images. No network service, learned image embedding, general transformation invariance or production service claim.</p><pre>{
+  &quot;development_selected_hamming_threshold&quot;: 22,
+  &quot;test_cases&quot;: [
+    {
+      &quot;source&quot;: 8,
+      &quot;transform&quot;: &quot;blur&quot;,
+      &quot;top_match&quot;: 8,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 8,
+      &quot;transform&quot;: &quot;rotate&quot;,
+      &quot;top_match&quot;: 8,
+      &quot;distance&quot;: 8,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 8,
+      &quot;transform&quot;: &quot;resize&quot;,
+      &quot;top_match&quot;: 8,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 9,
+      &quot;transform&quot;: &quot;blur&quot;,
+      &quot;top_match&quot;: 9,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 9,
+      &quot;transform&quot;: &quot;rotate&quot;,
+      &quot;top_match&quot;: 2,
+      &quot;distance&quot;: 20,
+      &quot;correct&quot;: false
+    },
+    {
+      &quot;source&quot;: 9,
+      &quot;transform&quot;: &quot;resize&quot;,
+      &quot;top_match&quot;: 9,
+      &quot;distance&quot;: 2,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 10,
+      &quot;transform&quot;: &quot;blur&quot;,
+      &quot;top_match&quot;: 10,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 10,
+      &quot;transform&quot;: &quot;rotate&quot;,
+      &quot;top_match&quot;: 10,
+      &quot;distance&quot;: 8,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 10,
+      &quot;transform&quot;: &quot;resize&quot;,
+      &quot;top_match&quot;: 10,
+      &quot;distance&quot;: 2,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 11,
+      &quot;transform&quot;: &quot;blur&quot;,
+      &quot;top_match&quot;: 11,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 11,
+      &quot;transform&quot;: &quot;rotate&quot;,
+      &quot;top_match&quot;: 11,
+      &quot;distance&quot;: 20,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 11,
+      &quot;transform&quot;: &quot;resize&quot;,
+      &quot;top_match&quot;: 11,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 12,
+      &quot;transform&quot;: &quot;blur&quot;,
+      &quot;top_match&quot;: 12,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 12,
+      &quot;transform&quot;: &quot;rotate&quot;,
+      &quot;top_match&quot;: 3,
+      &quot;distance&quot;: 18,
+      &quot;correct&quot;: false
+    },
+    {
+      &quot;source&quot;: 12,
+      &quot;transform&quot;: &quot;resize&quot;,
+      &quot;top_match&quot;: 12,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 13,
+      &quot;transform&quot;: &quot;blur&quot;,
+      &quot;top_match&quot;: 13,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 13,
+      &quot;transform&quot;: &quot;rotate&quot;,
+      &quot;top_match&quot;: 13,
+      &quot;distance&quot;: 20,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 13,
+      &quot;transform&quot;: &quot;resize&quot;,
+      &quot;top_match&quot;: 13,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 14,
+      &quot;transform&quot;: &quot;blur&quot;,
+      &quot;top_match&quot;: 14,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 14,
+      &quot;transform&quot;: &quot;rotate&quot;,
+      &quot;top_match&quot;: 14,
+      &quot;distance&quot;: 18,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 14,
+      &quot;transform&quot;: &quot;resize&quot;,
+      &quot;top_match&quot;: 14,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 15,
+      &quot;transform&quot;: &quot;blur&quot;,
+      &quot;top_match&quot;: 15,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 15,
+      &quot;transform&quot;: &quot;rotate&quot;,
+      &quot;top_match&quot;: 15,
+      &quot;distance&quot;: 12,
+      &quot;correct&quot;: true
+    },
+    {
+      &quot;source&quot;: 15,
+      &quot;transform&quot;: &quot;resize&quot;,
+      &quot;top_match&quot;: 15,
+      &quot;distance&quot;: 0,
+      &quot;correct&quot;: true
+    }
+  ],
+  &quot;test_top1&quot;: 0.9166666666666666,
+  &quot;checks&quot;: [
+    &quot;Actual DC-excluded DCT perceptual hash&quot;,
+    &quot;Separate source-image slice for evaluation&quot;
+  ],
+  &quot;scope&quot;: &quot;Local perceptual-hash retrieval core over authored geometric images. No network service, learned image embedding, general transformation invariance or production service claim.&quot;
+}</pre><p>Authored small fixtures unless explicitly stated otherwise. Inspect errors, assumptions and limitations before sharing. No automatic external actions.</p></html>

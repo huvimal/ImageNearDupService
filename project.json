@@ -1,0 +1,14 @@
+{
+  "number": 36,
+  "name": "ImageNearDupService",
+  "short": "Perceptual image retrieval",
+  "summary": "Compare DCT perceptual hashes across authored image transformations and inspect failed nearest matches.",
+  "profile": "core",
+  "timeout": 600,
+  "scope": "Local perceptual-hash retrieval core over authored geometric images. No network service, learned image embedding, general transformation invariance or production service claim.",
+  "skills": [
+    "Python",
+    "Data Processing",
+    "Software Testing"
+  ]
+}
